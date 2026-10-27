@@ -1,0 +1,103 @@
+:root {
+  font-family: "Segoe UI", system-ui, sans-serif;
+  line-height: 1.45;
+  color: #1a1a1a;
+  background: #f6f7f9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.app-shell {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.app-header h1 {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+th,
+td {
+  border-bottom: 1px solid #e2e4e8;
+  padding: 0.6rem 0.75rem;
+  text-align: left;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: end;
+  margin-bottom: 1rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.field label {
+  font-size: 0.85rem;
+  color: #444;
+}
+
+.error {
+  color: #b00020;
+  font-size: 0.9rem;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  background: #e8eef7;
+  font-size: 0.85rem;
+}
+
+.badge-inactive {
+  background: #eee;
+  color: #555;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.dialog-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  display: grid;
+  place-items: center;
+}
+
+.dialog {
+  background: #fff;
+  padding: 1.25rem;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 90%;
+}
